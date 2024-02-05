@@ -51,6 +51,7 @@ nav ul li a {
   border-radius: 10px;
   border: 1px solid var(--green-color);
 }
+
 nav ul li a.btn-dark {
   color: var(--light-color);
   background-color: var(--green-color);
@@ -63,18 +64,18 @@ nav ul li a.btn-dark:hover {
 
 /* main section */
 
- main {
-    margin-left: auto;
-    margin-right: auto;
- }
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
 
- main div h1{
-    justify-content: center;
-    text-align: center;
-    padding: 100px 0;
- }
+main div h1 {
+  justify-content: center;
+  text-align: center;
+  padding: 100px 0;
+}
 
- /* main section ends here */
+/* main section ends here */
 
 /* Footer Section */
 #footer {
@@ -86,18 +87,18 @@ nav ul li a.btn-dark:hover {
   background-color: var(--dark-green-color);
 }
 
-.social-icons{
+.social-icons {
   padding-top: 34px;
   margin: 8px;
   width: 40px;
   height: 40px;
 }
 
-.footer-nav-links{
+.footer-nav-links {
   padding-top: 44px;
 }
 
-.nav-links{
+.nav-links {
   margin: 0 25px;
   font-size: 16px;
   font-weight: 400px;
@@ -106,7 +107,7 @@ nav ul li a.btn-dark:hover {
   text-decoration: none;
 }
 
-.footer-image{
+.footer-image {
   margin-top: 44px;
   padding-bottom: 34.82px;
 }

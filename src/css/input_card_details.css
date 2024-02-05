@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Reenie+Beanie&family=Rubik+Moonrocks&display=swap');
 @import url('/src/css/header_footer.css');
+
 html {
   scroll-behavior: smooth;
 }
@@ -27,7 +28,8 @@ main {
   border-radius: 10px;
   background: #EAEAEA;
 }
-header{
+
+header {
   gap: 161px;
 }
 
@@ -162,26 +164,30 @@ header{
 
 /* Media Queries for Responsiveness */
 
-@media only screen and (max-width: 768px), screen and (max-width: 1024px){
+@media only screen and (max-width: 768px),
+screen and (max-width: 1024px) {
   main {
     margin: 30px 70px;
   }
+
   header {
     padding-left: 46px;
     padding-right: 46px;
     gap: 50px;
-        box-shadow: none;
-      }
+    box-shadow: none;
+  }
 }
 
-@media screen and (max-width: 480px), screen and (max-width: 600px){
+@media screen and (max-width: 480px),
+screen and (max-width: 600px) {
   main {
     margin: 50px 70px;
   }
+
   header {
     padding-left: 36px;
     padding-right: 36px;
-        box-shadow: none;
-        gap: 50px;
-      }
+    box-shadow: none;
+    gap: 50px;
+  }
 }
