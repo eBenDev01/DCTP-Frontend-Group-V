@@ -18,7 +18,7 @@ header{
     position: fixed;
     top: 0;
     right: 0;
-    padding: 16px 30px;
+    padding: 16px 10px;
     gap: 315px;
     align-items: center;
 }
@@ -83,7 +83,7 @@ header input{
 
 .search_bar img{
     position: absolute;
-  right: 35%;
+  right: 34%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 1;
@@ -99,7 +99,12 @@ header input{
     left: 0;
     width: 200px;
     height: 100%;
-    padding: 38px 31px
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 40px;
+    padding-right: 60px;
+    align-content: center;
+    margin-right: 70px;
 
 }
 
@@ -120,6 +125,8 @@ header input{
 .links div{
     display: flex;
     gap: 15px;
+    width: 229px;
+    height: 40px;
 }
 
 .links img{
@@ -132,10 +139,117 @@ header input{
     font-weight: 500;
     font-size: 16px;
     color: #7C7C7C;
+
     
+}
+
+.links div:hover{
+background: #00312D;
+border-radius: 5px;
+border: none;
+padding-left: 10px;
+padding-top: 10px;
+
 }
 
 .container_grid{
     border: 2px solid #D1D1D1;
     background-color: #F5F5F5;
+}
+
+.eclipse{
+    position: relative;
+    z-index: -10;
+    top: 90px;
+    left: 170px;
+    }
+
+.profile_image  {
+    position: absolute;
+    width: 154px;
+    height: 154px;
+    top: 105px;
+    left: 180px;
+    z-index: -10;
+    
+}
+
+.container{
+    width: 1016px;
+    height: 356px;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    z-index: -5;
+    margin: 90px 0px;
+
+}
+.title{
+    display: grid;
+    gap: 0px;
+    line-height: 0px;
+    padding-left: 33px;
+    padding-top: 33px;
+    padding-bottom: 20px;
+}
+
+.personal_information{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.information_subtitle{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 0px;
+}
+
+.the_grid{
+    padding-top: 20px;
+    padding-left: 33px;
+    padding-bottom: 40px;
+    font-weight: 300;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.grid{
+    display: grid;
+    gap: 20px;
+    
+}
+
+.grid label{
+
+    font-weight: 600;
+    font-size: 14px;
+    color: #7C7C7C;
+}
+
+.grid input{
+     background: #F5F5F5;
+    border: 1px solid #D1D1D1;
+    width: 230px;
+    height:20px;
+    padding: 10px;
+}
+
+.save{
+    position: absolute;
+    right: 1px;
+    z-index: -10;
+    width: 189px;
+height: 70px;
+padding: 18px 62px 18px 62px;
+border-radius: 10px;
+background: #BFF202;
+border: none;
+font-size: 28px;
+font-weight: 400;
+color: #00312D;
+margin-top: 25px;
 }
