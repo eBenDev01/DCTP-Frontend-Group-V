@@ -1,1 +1,141 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Reenie+Beanie&family=Rubik+Moonrocks&display=swap');
+
+body{
+    width: 1440px;
+    height: 1033px;
+    background-color: #EAEAEA;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+}
+
+header{
+    border: 2px solid #D1D1D1;
+    background-color: #F5F5F5;
+    width: 1178px;
+    height: 100px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 16px 30px;
+    gap: 315px;
+    align-items: center;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header_left{
+    display: block;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.welcome{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 0px;
+    gap: 5px;
+    color: #00312D;
+}
+
+.date_time{
+    font-weight: 500;
+    font-size: 14px;
+    gap: 5px;
+    color: #7C7C7C;
+    
+}
+
+header img{
+    height: 24px;
+    width: 24px;
+    align-items: center;
+}
+
+.icons{
+    gap: 54px;
+    align-items: center;
+}
+
+.header_right{
+    gap: 72px;
+    align-items: center;
+}
+
+
+header input{
+    width: 318px;
+    height: 49px;
+    padding-left: 70px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #00312D;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.search_bar img{
+    position: absolute;
+  right: 35%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.sidebar{
+    width: 308px;
+    height: 1033px;
+    border: 2px solid #D1D1D1;
+    background-color: #F5F5F5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 38px 31px
+
+}
+
+.sidebar_logo{
+    width: 188px;
+    height: 60px;
+}
+
+
+.links{
+    width: 287px;
+    height:312px;
+    margin-top: 50px;
+    display: grid;
+    gap: 5px;
+
+}
+.links div{
+    display: flex;
+    gap: 15px;
+}
+
+.links img{
+    width: 24px;
+    height:24px;
+}
+
+.links a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7C7C7C;
+    
+}
+
+.container_grid{
+    border: 2px solid #D1D1D1;
+    background-color: #F5F5F5;
+}
