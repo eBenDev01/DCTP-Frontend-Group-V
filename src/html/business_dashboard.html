@@ -15,7 +15,7 @@
             <div class="header_left">
                 <div class="welcome">
                     <p>Welcome,</p>
-                    <p>Danlitiny</p>
+                    <p>NGFA</p>
                 </div>
                 <div class="date_time">
                     <div class="date">
@@ -55,62 +55,155 @@
                 <img src="/src/assets/dashboard.svg" alt="dashboard">
                 <a href="">Dashboard</a>
             </div>
-            <div class="sidebar_profile">
-                <img src="/src/assets/profile.svg" alt="">
-                <a href="">Profile</a>
+            <div class="sidebar_add">
+                <img src="/src/assets/add_product.svg" alt="">
+                <a href="">Add Products</a>
             </div>
-            <div class="sidebar_payment">
-                <img src="/src/assets/payment.svg" alt="">
-                <a href="http://">Payment Method</a>
+            <div class="sidebar_promotiion">
+                <img src="/src/assets/promotions.svg" alt="">
+                <a href="http://">Promotions</a>
             </div>
-            <div class="sidebar_history">
-                <img src="/src/assets/history.svg" alt="">
-                <a href="http://">History and Tax Receipt</a>
+            <div class="sidebar_advertise">
+                <img src="/src/assets/advertise.svg" alt="">
+                <a href="http://">Advertise Products</a>
             </div>
-            <div class="sidebar_monitor">
-                <img src="/src/assets/monitor.svg" alt="">
-                <a href="">Monitor Donations</a>
+            <div class="sidebar_account">
+                <img src="/src/assets/account.svg" alt="">
+                <a href="">Account Statment</a>
+            </div>
+        </div>
+        <img src="/src/assets/Line 22.svg" alt="" class="links_divider">
+        <div class="other_links">
+            <div class="sidebar_choose">
+                <img src="/src/assets/choose_shop.svg" alt="">
+                <a href="http://">Choose Shop</a>
+            </div>
+            <div class="sidebar_shop_name">
+                <div>
+                    <img src="/src/assets/NGFA_biz_logo.svg" alt="">
+                    <a href="">NGFA</a>
+                    <img src="/src/assets/arrow_down.svg" alt="">
+                </div>
+                <p>ngfamegastore@dctp.com</p>
             </div>
         </div>
     </section>
     
-        <!-- profile image -->
-        <section class="profile_image">
-            <img class="eclipse" src="/src/assets/Ellipse.svg" alt="">
-            <img class="profile_image" src="/src/assets/profile_picture.png" alt="">
-        </section>
+       <section class="main_section">
+        
+        <!-- information cards-->
+            <section class="information_cards">
+                <div class="shop_information">
+                    <img src="/src/assets/shop_information.svg" alt="">
+                    <p class="card_title">Shop <p>Information</p></p>
+                    <img src="/src/assets/Line 22.svg" alt="" class="divider">
+                    <div class="pending">
+                        <img src="/src/assets/pending.svg" alt="">
+                        <p> Pending </p>
+                    </div>
+                </div>
+            </section>
 
-        <!-- Personal information -->
+                <!-- Account details -->
         <section class="container">
             <div class="container_grid">
                 <div class="title">
-                    <p class="personal_information">
-                        Personal Information
+                    <p class="first_title">
+                        Account Details
                     </p>
-                    <p class="information_subtitle">
-                        Input personal details below
+                    <p class="subtitle">
+                        Seller account information
                     </p>
                 </div>
                 <div class="the_grid">
                     <div class="grid">
-                        <label for="first_name">First Name*</label>
-                        <input type="text" name="first_name" id="first_name" placeholder="input first name" required>
+                        <label for="account_email">Account Email*</label>
+                        <input type="email" name="account_email" id="account_email" placeholder="ngfamegastore@dctp.com" required>
                     </div>
                     <div class="grid">
-                        <label for="last_name">Last Name*</label>
-                        <input type="text" name="last_name" id="last_name" placeholder="input last name" required>
+                        <label for="account_phone">Account Phone*</label>
+                        <input type="number" name="account_phone" id="account_phone" placeholder=" +2348100012345" required>
                     </div>
                     <div class="grid">
-                        <label for="email_address">Email Address*</label>
-                        <input type="text" name="email_address" id="email_address" placeholder="input Email address" required>
+                        <label for="state">State/City of Registration*</label>
+                        <input type="text" name="state" id="state" placeholder="Lagos" required>
                     </div>
                     <div class="grid">
-                        <label for="address">Address*</label>
-                        <input type="text" name="address" id="address" placeholder="input address" required>
+                        <label for="account_type">Account Type*</label>
+                        <input type="text" name="account_type" id="account_type" placeholder="Business" required>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- Shop Details -->
+        <section class="container">
+            <div class="container_grid">
+                <div class="title">
+                    <p class="first_title">
+                        Shop Details
+                    </p>
+                    <p class="subtitle">
+                        Manage your OMIO shop below
+                    </p>
+                </div>
+                <div class="the_grid">
+                    <div class="grid">
+                        <label for="first_name">Shop Name*</label>
+                        <input type="text" name="shop_name" id="shop_name" placeholder="NGFA Mega Store" required>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- Customer care details -->
+        <section class="container">
+            <div class="container_grid">
+                <div class="title">
+                    <p class="first_title">
+                        Customer Care Details
+                    </p>
+                    <p class="subtitle">
+                        Please provide details of your customer support. 
+                    </p>
+                </div>
+                <div class="the_grid">
+                    <div class="grid">
+                        <label for="customer_care_name">Customer Care Name</label>
+                        <input type="text" name="customer_care_name" id="customer_care_name" placeholder="Center name or rep name">
                     </div>
                     <div class="grid">
-                        <label for="tax_id">Home Tax ID*</label>
-                        <input type="text" name="tax_id" id="tax_id" placeholder="input home tax ID" required>
+                        <label for="customer_care_phone">Customer Care Phone</label>
+                        <input type="text" name="customer_care_phone" id="customer_care_phone">
+                    </div>
+                    <div class="grid">
+                        <label for="customer_care_email">Customer Care Email</label>
+                        <input type="email" name="customer_care_email" id="customer_care_email" >
+                    </div>
+                    <div class="grid">
+                        <label for="address_1">Address Line 1</label>
+                        <input type="text" name="address_1" id="address_1" placeholder="Floor/House/Apartment No, etc">
+                    </div>
+                    <div class="grid">
+                        <label for="address_2">Address Line 2</label>
+                        <input type="text" name="address_2" id="address_2" placeholder="Street/Block/Number etc">
+                    </div>
+                    <div class="grid">
+                        <label for="city_town">City / Town*</label>
+                        <input type="text" name="city_town" id="city_town" placeholder="or District/Province etc" >
+                    </div>
+                    <div class="grid">
+                        <label for="state_region">State / Region*</label>
+                        <input type="text" name="city_town" id="city_town">
+                    </div>
+                    <div class="grid">
+                        <label for="postal_code">Pin code / Postal Code</label>
+                        <input type="text" name="postal_code" id="postal_code" placeholder="or Postal code" >
+                    </div>
+                    <div class="grid">
+                        <label for="country">Country</label>
+                        <input type="text" name="country" id="country" placeholder="country" >
+                        <img src="/src/assets/arrow_down.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -120,6 +213,7 @@
                 </button>
             </div>
         </section>
+       </section>
     </main>
     
 </body>
